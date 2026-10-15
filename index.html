@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10110f">
+  <meta name="description" content="曲奇和饼干一起折腾出来的游戏：末日炮台、猪猪真快乐与世界猎人。">
+  <title>曲奇的游戏作品集｜把点子变成游戏</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/ScrollTrigger.min.js" defer></script>
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="曲奇游戏工作室，回到首页"><span class="brand-mark" aria-hidden="true">C<span>·</span></span><span>曲奇<span class="brand-sub">/ GAME LAB</span></span></a>
+    <nav aria-label="主导航"><a href="#about">关于</a><a href="#works">作品</a><a href="#contact">联系</a></nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-media" aria-hidden="true">
+        <video class="managed-video hero-video" muted playsinline loop preload="none" poster="media/zombie-cannon.webp" data-sources="media/zombie-cannon.mp4,media/survivors.mp4,media/world-hunter.mp4" tabindex="-1"></video>
+      </div>
+      <div class="hero-grain" aria-hidden="true"></div>
+      <div class="hero-inner page-wrap">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="line"></span> COOKIE GAME LAB <span class="eyebrow-no">/ 001—003</span></div>
+          <h1 id="hero-title">把脑海里的<span>点子</span><br>变成能玩的<span>世界<span class="title-stop">。</span></span></h1>
+          <p>我负责许愿，饼干总监负责实现。<br>三个游戏已经上线，更多的还在许愿池里。</p>
+          <a class="hero-cta" href="#works"><span>探索作品</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a>
+        </div>
+        <div class="hero-index" aria-label="本页收录三款游戏"><span>01 / 末日炮台</span><span>02 / 猪猪真快乐</span><span>03 / 世界猎人</span></div>
+      </div>
+      <a class="scroll-cue" href="#about"><span>往下滑</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v17m-6-6 6 6 6-6"/></svg></a>
+      <button class="media-toggle" id="media-toggle" type="button" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14M16 5v14"/></svg><span>暂停画面</span></button>
+      <span class="hero-side" aria-hidden="true">MADE WITH IDEAS & A LITTLE MAGIC</span>
+    </section>
+
+    <section class="about section-pad" id="about" aria-labelledby="about-title">
+      <div class="page-wrap about-grid">
+        <div class="about-figure reveal" aria-hidden="true">
+          <span class="corner corner-tl"></span><span class="corner corner-br"></span>
+          <img class="avatar avatar-photo" src="media/avatar-c2.webp" alt="曲奇的虚拟形象" width="800" height="800" style="position:absolute;inset:0;width:100%;height:100%;max-width:none;object-fit:cover;object-position:50% 40%;image-rendering:auto;filter:none;z-index:1">
+          <span class="figure-label">PLAYER 01 <span>／</span> 曲奇</span>
+        </div>
+        <div class="about-copy reveal">
+          <p class="section-kicker"><span>00</span> / 关于我</p>
+          <h2 id="about-title">嗨，我是<span>曲奇。</span></h2>
+          <div class="rule"></div>
+          <p class="intro-text">我说“要是有个这样的游戏就好了”，饼干说“好的”，然后它就真的做出来了。我说“这里不好玩”，饼干说“好的”，然后它就真的改了。下面这些，就是很多句“好的”攒出来的。</p>
+          <div class="about-signature">曲奇 <span>×</span> 饼干 <small>IDEA + BUILD</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="works section-pad" id="works" aria-labelledby="works-title">
+      <div class="page-wrap">
+        <div class="section-heading reveal"><div><p class="section-kicker"><span>01—03</span> / 精选作品</p><h2 id="works-title">游戏<span>档案</span><span class="title-stop">.</span></h2></div><p>从浏览器里的一局塔防，<br>到正在搭建的 3D 世界。</p></div>
+
+        <article class="project project-one reveal" aria-labelledby="zombie-title">
+          <div class="project-visual phone-visual">
+            <div class="visual-backdrop zombie-backdrop"></div>
+            <div class="phone-shell"><video class="managed-video project-video" muted playsinline loop preload="none" poster="media/zombie-cannon.webp" data-src="media/zombie-cannon.mp4" aria-label="末日炮台试玩画面"></video></div>
+            <div class="visual-stamp">PLAYABLE<br>NOW <span>↗</span></div>
+          </div>
+          <div class="project-copy"><div class="project-top"><span class="project-number">/ 01</span><span class="project-state"><i></i> 已上线</span></div><p class="project-overline">SURVIVE THE WAVE</p><h3 id="zombie-title">末日<span>炮台</span></h3><p class="project-description">守住最后一道防线。布置炮台、选择强化，在一波又一波的尸潮里打出自己的节奏。</p><div class="tags"><span>网页 · 手机可玩</span><span>塔防肉鸽</span></div><a class="button button-primary" href="https://2175782365q-bot.github.io/zombie-cannon-play/" target="_blank" rel="noopener noreferrer">立即试玩 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a></div>
+        </article>
+
+        <article class="project project-two reveal" aria-labelledby="survivors-title">
+          <div class="project-visual phone-visual">
+            <div class="visual-backdrop survivors-backdrop"></div>
+            <div class="phone-shell"><video class="managed-video project-video" muted playsinline loop preload="none" poster="media/survivors.webp" data-src="media/survivors.mp4" aria-label="猪猪真快乐试玩画面"></video></div>
+            <div class="visual-stamp stamp-muted">FAN<br>PROJECT <span>×</span></div>
+          </div>
+          <div class="project-copy"><div class="project-top"><span class="project-number">/ 02</span><span class="project-state state-soon"><i></i> 即将上线</span></div><p class="project-overline">OUTLAST THE SHADOWS</p><h3 id="survivors-title">猪猪<span>真快乐</span></h3><p class="project-description">提着王者剑闯进阿尔比恩的地牢，边走边砍，E 键甩出一道光波；在怪潮里升级、觉醒，试着活得更久。</p><div class="tags"><span>网页 · 手机可玩</span><span>割草肉鸽</span><span>阿尔比恩同人</span></div><button class="button button-disabled" type="button" disabled aria-label="猪猪真快乐即将上线">即将上线 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></button><p class="project-note">非官方同人作品</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="world section-pad" id="world" aria-labelledby="world-title">
+      <div class="page-wrap">
+        <div class="world-intro reveal"><p class="section-kicker"><span>03</span> / 开发中</p><div class="world-heading"><h2 id="world-title">世界<span>猎人</span><span class="title-stop">.</span></h2><p>一片正在生长的 3D 世界。越过河流、穿过森林，下一段冒险正在制作中。</p></div><div class="tags"><span>Unity 3D</span><span>PC</span><span>开发中</span></div></div>
+        <div class="world-preview reveal"><video class="managed-video world-video" muted playsinline loop preload="none" poster="media/world-hunter-v01/wh_town_hud.webp" data-src="media/world-hunter.mp4" aria-label="世界猎人实机画面"></video><span class="world-preview-label">GAMEPLAY / 实机画面</span></div>
+        <div class="world-stage" id="world-stage">
+          <div class="world-frame"><div class="world-frames" aria-label="世界猎人游戏截图"><img src="media/world-hunter-v01/wh_main_menu.webp" alt="世界猎人：主界面" width="1600" height="900"><img src="media/world-hunter-v01/wh_auction.webp" alt="世界猎人：拍卖行商人对话" width="1600" height="900" loading="lazy"><img src="media/world-hunter-v01/wh_town_hud.webp" alt="世界猎人：主城与技能栏" width="1600" height="900" loading="lazy"></div><div class="world-frame-footer"><span>IN DEVELOPMENT <i></i> WORLD HUNTER</span><span class="world-count">01 / 03</span></div></div>
+          <div class="world-controls"><button type="button" class="gallery-button" id="gallery-prev" aria-label="上一张截图"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12H4m6 6-6-6 6-6"/></svg></button><span>左右滑动浏览截图</span><button type="button" class="gallery-button" id="gallery-next" aria-label="下一张截图"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></button></div>
+        </div>
+        <div class="world-bottom reveal"><div><p class="world-caption">BEYOND THE HORIZON</p><p>现在还不能试玩，先看看它的模样。</p></div><button class="button button-outline" id="watch-world" type="button">观看实机视频 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 5 11 7-11 7V5Z"/></svg></button></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contact"><div class="page-wrap footer-inner"><div><p class="section-kicker"><span>04</span> / 联系</p><h2>下一个点子，<br><span>一起聊聊。</span></h2><p>有想法或者发现了 bug，欢迎在群里告诉我。</p></div><div class="footer-side"><a href="#top" class="back-top">返回顶部 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20V4m-6 6 6-6 6 6"/></svg></a><div class="footer-brand">曲奇 <span>×</span> 饼干</div></div></div><div class="page-wrap footer-legal"><span>© 2026 COOKIE GAME LAB</span><p>猪猪真快乐为非官方同人作品，与 Sandbox Interactive 无关，Albion Online 相关名称与素材版权归其所有。</p></div></footer>
+
+  <dialog id="world-dialog" class="video-dialog" aria-label="世界猎人实机视频"><button class="dialog-close" type="button" aria-label="关闭视频"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5 19 19M19 5 5 19"/></svg></button><div class="dialog-inner"><p>WORLD HUNTER <span>/ 实机画面</span></p><video class="managed-video dialog-video" muted playsinline loop preload="none" poster="media/world-hunter-v01/wh_town_hud.webp" data-src="media/world-hunter.mp4" controls aria-label="世界猎人实机视频"></video></div></dialog>
+</body>
+</html>
