@@ -5,3 +5,5 @@
 #biscuit-mascot .bm-bubble.on{opacity:1;transform:none}
 @media (max-width:640px){#biscuit-mascot{width:80px;height:80px;right:8px;bottom:8px}#biscuit-mascot .bm-bubble{font-size:12px}}
 @media (prefers-reduced-motion:reduce){#biscuit-mascot .bm-bubble{transition:none}}
+#biscuit-mascot{z-index:2147483000!important;right:20px;bottom:84px;opacity:1!important;visibility:visible!important;transform:none}
+@media (max-width:640px){#biscuit-mascot{right:8px;bottom:12px}}
